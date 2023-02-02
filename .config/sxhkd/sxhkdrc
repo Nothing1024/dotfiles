@@ -11,6 +11,10 @@ XF86Audio{Raise,Lower}Volume
 XF86AudioMute  
   pulsemixer  --toggle-mute
 
+# dashboard
+super + a
+  bash ~/.config/eww/dashboard/launch_dashboard
+
 # terminal emulator
 super + Return
 #	qterminal

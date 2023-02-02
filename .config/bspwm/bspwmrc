@@ -24,5 +24,6 @@ fcitx5 &
 picom &
 ~/.config/polybar/launch.sh
 dunst &
+eww daemon
 # utools &
 # xrandr --scale 1.25x1.25 &
