@@ -1,5 +1,5 @@
 temp_list = []
-with open('./eww copy.yuck', 'r') as f:
+with open('./eww.yuck', 'r') as f:
     for i in f.readlines():
         temp_list.append(i)
 for j in range(len(temp_list)):
@@ -19,5 +19,5 @@ for j in range(len(temp_list)):
 for i in temp_list:
     if ':geometry' in i:
         print(i)
-with open('./eww copy.yuck', 'w') as f:
+with open('./eww.yuck', 'w') as f:
     f.writelines(temp_list)

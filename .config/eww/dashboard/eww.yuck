@@ -8,8 +8,9 @@
 
 ;; Profile vars
 (defvar IMAGE "images/profile.jpg")
-(defvar NAME "YOUR NAME")
-(defpoll UNAME :interval "5m" `whoami`)
+(defvar NAME "机主")
+(defvar UNAME "Nothing")
+; (defpoll UNAME :interval "5m" `whoami`)
 
 ;; System vars
 (defpoll HOST :interval "5s" `hostname`)
